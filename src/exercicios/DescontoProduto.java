@@ -27,5 +27,6 @@ public class DescontoProduto {
                     + "Valor com desconto: R$ " + valorComDesconto;
             JOptionPane.showMessageDialog(null, mensagem);
         }
+        
     }
 }

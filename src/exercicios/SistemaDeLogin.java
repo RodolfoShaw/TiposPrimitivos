@@ -3,8 +3,8 @@ package exercicios;
 import java.util.Scanner;
 
 public class SistemaDeLogin {
-    private String loginCorreto = "java8";
-    private String senhaCorreta = "java8";
+    private String loginCorreto = "Senha";
+    private String senhaCorreta = "Senha";
     private int tentativasRestantes = 3;
 
     public void solicitarLoginSenha() {
@@ -27,5 +27,6 @@ public class SistemaDeLogin {
                 System.out.println("Número máximo de tentativas atingido. Acesso negado.");
             }
         }
+       
     }
 }
