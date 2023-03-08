@@ -10,13 +10,11 @@ public class SomaDeInteiros {
         int num1 = scan.nextInt();
 
         System.out.println("Digite outro valor: ");
-        int num2 = scan.nextInt();
+        int num2 = scan.nextInt();678
 
         int soma = num1 + num2;
-        System.out.println( "Soma: " + soma);
+        System.out.println("Soma: " + soma);
+
+        scan.close();
     }
-
-
-
-    
 }
